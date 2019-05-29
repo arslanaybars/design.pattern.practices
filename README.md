@@ -11,7 +11,7 @@ A reference library for design patterns
   - Lazy Instantiation
   - Utility Pattern
 - Structural Patterns
-  - Adapter Pattern
+  - [Adapter Pattern](adapter.pattern)
 - Behavioral Patterns
 - Security Patterns
 - Concurrency Patterns
