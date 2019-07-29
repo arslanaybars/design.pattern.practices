@@ -16,8 +16,6 @@ namespace adapter.pattern
             IToyDuck birdAdapter = new BirdAdapter(Sparrow);
             
             // Act
-            
-
             // Assert
             Assert.Equal("Flying", Sparrow.Fly());
             Assert.Equal("Chirp Chirp", Sparrow.MakeSound());

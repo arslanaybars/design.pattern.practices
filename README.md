@@ -13,6 +13,7 @@ A reference library for design patterns
 - Structural Patterns
   - [Adapter Pattern](adapter.pattern)
   - [Bridge Pattern](bridge.pattern)
+  - [Rule Pattern](rule.pattern)
 - Behavioral Patterns
 - Security Patterns
 - Concurrency Patterns
