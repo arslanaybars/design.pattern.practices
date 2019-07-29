@@ -1,8 +1,10 @@
 # Rule Pattern
 
+- Consider using the Rules Pattern when you have a growing amount of conditional complexity
+- Separate the logic of each individual rule and its effects into its own class
 - Every rule is executed and the evaluator examines the results
 
-#####Structure
+##### Structure
 
 ```mermaid
 graph LR
