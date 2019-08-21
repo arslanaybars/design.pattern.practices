@@ -112,5 +112,22 @@ namespace rule.pattern
             // Assert
             Assert.Equal(0.22m, discount);
         }
+
+          [Fact]
+        public void Return15PctForFirstTimeCustomer()
+        {
+            // Arrange
+            var customer = new Customer
+            {
+                DateOfBirth = DateTime.Today.AddDays(-5),
+                DateOfFistPurchase = null
+            };
+
+            // Act
+            decimal discount = _calculator.CalculateDiscountPercentage(customer);
+
+            // Assert
+            Assert.Equal(0.15m, discount);
+        }
     }
 }

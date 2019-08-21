@@ -15,6 +15,7 @@ A reference library for design patterns
   - [Bridge Pattern](bridge.pattern)
   - [Rule Pattern](rule.pattern)
 - Behavioral Patterns
+  - [Chain of Responsibility Pattern](chain.of.responsibility.pattern)
 - Security Patterns
 - Concurrency Patterns
 - Sql Patterns
