@@ -4,7 +4,7 @@ namespace bridge.pattern
     {
         public override string Send()
         {
-            return _restaurant.Place("Gluten-Free Order");
+            return Restaurant.Place("Gluten-Free Order");
         }
     }
 }

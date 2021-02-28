@@ -6,7 +6,7 @@ namespace bridge.pattern
     public abstract class SendOrder
     {
         // Reference to the implementor
-        public IOrderingSystem _restaurant;
+        public IOrderingSystem Restaurant;
 
         public abstract string Send();
     }

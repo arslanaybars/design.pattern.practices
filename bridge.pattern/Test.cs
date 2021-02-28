@@ -12,19 +12,19 @@ namespace bridge.pattern
             List<string> results = new List<string>();
 
             // Act
-            SendOrder _sendOrder = new SendDairyFreeOrder();
-            _sendOrder._restaurant = new DinerOrders();
-            results.Add(_sendOrder.Send());
+            SendOrder sendOrder = new SendDairyFreeOrder();
 
-            _sendOrder._restaurant = new FancyRestaurantOrders();
-            results.Add(_sendOrder.Send());
+            sendOrder.Restaurant = new DinerOrders();
+            results.Add(sendOrder.Send());
 
-            _sendOrder = new SendGlutenFreeOrder();
-            _sendOrder._restaurant = new DinerOrders();
-            results.Add(_sendOrder.Send());
+            sendOrder.Restaurant = new FancyRestaurantOrders();
+            results.Add(sendOrder.Send());
 
-            _sendOrder._restaurant = new FancyRestaurantOrders();
-            results.Add(_sendOrder.Send());
+            sendOrder = new SendGlutenFreeOrder {Restaurant = new DinerOrders()};
+            results.Add(sendOrder.Send());
+
+            sendOrder.Restaurant = new FancyRestaurantOrders();
+            results.Add(sendOrder.Send());
 
             // Assert
             Assert.Equal("Placing order for Dairy-Free Order at the Diner.", results[0]);
