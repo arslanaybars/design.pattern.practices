@@ -6,10 +6,10 @@ namespace chain.of.responsibility.pattern
     {
         public ApprovalResponse ApproveExpense(decimal expenseReportAmount)
         {
-            ExpenseHandler william = new ExpenseHandler(new Employee("William Worker", Decimal.Zero));
-            ExpenseHandler mary = new ExpenseHandler(new Employee("Mary Manager", new Decimal(1000)));
-            ExpenseHandler victor = new ExpenseHandler(new Employee("Victor Vicepres", new Decimal(5000)));
-            ExpenseHandler paula = new ExpenseHandler(new Employee("Paula President", new Decimal(20000)));
+            ExpenseHandler william = new ExpenseHandler(new Employee("William Worker", decimal.Zero));
+            ExpenseHandler mary = new ExpenseHandler(new Employee("Mary Manager", 1000m));
+            ExpenseHandler victor = new ExpenseHandler(new Employee("Victor Vicepres", 5000m));
+            ExpenseHandler paula = new ExpenseHandler(new Employee("Paula President", 20000m));
 
             william.RegisterNext(mary);
             mary.RegisterNext(victor);

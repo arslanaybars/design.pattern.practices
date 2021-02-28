@@ -13,6 +13,7 @@ namespace chain.of.responsibility.pattern
             
             // Act
             var result = new Approval().ApproveExpense(500m);
+
             // Assert
             Assert.Equal(result, ApprovalResponse.Approved);
         }

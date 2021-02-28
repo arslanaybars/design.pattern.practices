@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "behavioral.patterns", "behavioral.patterns", "{BDCE8D95-7475-42FF-9CC3-BF41367344FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "structural.patterns", "structural.patterns", "{078BABA8-3374-48AA-ABD5-124D72C409C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chain.of.responsibility.pattern", "behavioral.patterns\chain.of.responsibility.pattern\chain.of.responsibility.pattern.csproj", "{BB5BD089-11FA-413D-A3AB-8DC75D595029}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "strategy.pattern", "behavioral.patterns\strategy.pattern\strategy.pattern.csproj", "{0590BAC7-38AE-4E5D-BE6B-FD9FB39E5C0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "adapter.pattern", "structural.patterns\adapter.pattern\adapter.pattern.csproj", "{08EF2B00-9E97-41B5-9256-C30C24BB9B8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bridge.pattern", "structural.patterns\bridge.pattern\bridge.pattern.csproj", "{89F5934C-EA8D-48EB-8F3A-DFCF7F453E61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rule.pattern", "structural.patterns\rule.pattern\rule.pattern.csproj", "{5E9D3EFC-495E-4129-8215-AD4ED13068D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB5BD089-11FA-413D-A3AB-8DC75D595029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5BD089-11FA-413D-A3AB-8DC75D595029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5BD089-11FA-413D-A3AB-8DC75D595029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5BD089-11FA-413D-A3AB-8DC75D595029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0590BAC7-38AE-4E5D-BE6B-FD9FB39E5C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0590BAC7-38AE-4E5D-BE6B-FD9FB39E5C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0590BAC7-38AE-4E5D-BE6B-FD9FB39E5C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0590BAC7-38AE-4E5D-BE6B-FD9FB39E5C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08EF2B00-9E97-41B5-9256-C30C24BB9B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EF2B00-9E97-41B5-9256-C30C24BB9B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EF2B00-9E97-41B5-9256-C30C24BB9B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EF2B00-9E97-41B5-9256-C30C24BB9B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F5934C-EA8D-48EB-8F3A-DFCF7F453E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F5934C-EA8D-48EB-8F3A-DFCF7F453E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F5934C-EA8D-48EB-8F3A-DFCF7F453E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F5934C-EA8D-48EB-8F3A-DFCF7F453E61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9D3EFC-495E-4129-8215-AD4ED13068D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9D3EFC-495E-4129-8215-AD4ED13068D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9D3EFC-495E-4129-8215-AD4ED13068D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9D3EFC-495E-4129-8215-AD4ED13068D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB5BD089-11FA-413D-A3AB-8DC75D595029} = {BDCE8D95-7475-42FF-9CC3-BF41367344FE}
+		{0590BAC7-38AE-4E5D-BE6B-FD9FB39E5C0B} = {BDCE8D95-7475-42FF-9CC3-BF41367344FE}
+		{08EF2B00-9E97-41B5-9256-C30C24BB9B8A} = {078BABA8-3374-48AA-ABD5-124D72C409C8}
+		{89F5934C-EA8D-48EB-8F3A-DFCF7F453E61} = {078BABA8-3374-48AA-ABD5-124D72C409C8}
+		{5E9D3EFC-495E-4129-8215-AD4ED13068D2} = {078BABA8-3374-48AA-ABD5-124D72C409C8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6553872C-0715-49AA-BE73-019639E28033}
+	EndGlobalSection
+EndGlobal
