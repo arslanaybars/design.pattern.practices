@@ -16,6 +16,9 @@ A reference library for design patterns
   - [Rule Pattern](structural.patterns/rule.pattern)
 - Behavioral Patterns
   - [Chain of Responsibility Pattern](behavioral.patterns/chain.of.responsibility.pattern)
+  - [Strategy Pattern](behavioral.patterns/strategy.pattern)
+  - [Specification Pattern](behavioral.patterns/specification.pattern)
+- Composite Patterns
 - Security Patterns
 - Concurrency Patterns
 - Sql Patterns

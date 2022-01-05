@@ -25,11 +25,11 @@ namespace strategy.pattern
         public static Order CreateOrder_UPS()
         {
             return new Order()
-                       {
-                           ShippingMethod = Order.ShippingOptions.UPS,
-                           Destination = TestInit.CreateAddress_Destination(),
-                           Origin = TestInit.CreateAddress_Origin()
-                       };
+            {
+                ShippingMethod = Order.ShippingOptions.UPS,
+                Destination = TestInit.CreateAddress_Destination(),
+                Origin = TestInit.CreateAddress_Origin()
+            };
         }
 
         public static Address CreateAddress_Origin()
